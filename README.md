@@ -1,0 +1,1 @@
+I know that i coudl do it much more simple but i wanted to show technologies that im using buildging 90% of my comercial apps (angular, webpack, karma and more :))

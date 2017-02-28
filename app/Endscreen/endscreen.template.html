@@ -1,0 +1,8 @@
+<div class="carousel">
+    <div ng-if="$ctrl.mdMedia('landscape')">
+        <img ng-repeat="img in $ctrl.images.landscape" ng-src="{{img.src}}">
+    </div>
+    <div ng-if="$ctrl.mdMedia('portrait')">
+        <img ng-repeat="img in $ctrl.images.portrait" ng-src="{{img.src}}">
+    </div>
+</div>
